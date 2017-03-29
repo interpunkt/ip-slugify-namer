@@ -14,8 +14,10 @@ $ composer require ip/slugify-namer
 
 To use it in a Symfony2 project add it as a service in services.yml:
 ```
-ip.slugify_namer:
-    class: ip\SlugifyNamer\SlugifyNamer
+services:
+...
+    ip.slugify_namer:
+          class: ip\SlugifyNamer\SlugifyNamer
 ```
 
 Then add the service to your VichUploader mapping in config.yml
