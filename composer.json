@@ -1,0 +1,23 @@
+{
+    "name": "ip/slugify-namer",
+    "description": "Namer for the VichUploaderBundle which slugifies the filename of the uploaded file",
+    "type": "library",
+    "require": {
+        "php": "^5.5",
+        "cocur/slugify": "^2.5",
+        "vich/uploader-bundle": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Lehrner",
+            "email": "daniel.lehrner@inter-punkt.ch"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "\\ip\\SlugifyNamer": "src/"
+        }
+    }
+}
