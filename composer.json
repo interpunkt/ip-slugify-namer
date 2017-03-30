@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ip\\SlugifyNamer\\": "src/"
+            "Ip\\SlugifyNamer\\": "src"
         }
     }
 }
