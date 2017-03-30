@@ -1,6 +1,6 @@
 <?php
 
-namespace ip\SlugifyNamer;
+namespace Ip\SlugifyNamer;
 
 use Cocur\Slugify\Slugify;
 use Vich\UploaderBundle\Mapping\PropertyMapping;
